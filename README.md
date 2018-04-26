@@ -18,4 +18,12 @@ Learning from the Bank Tech Test, I took time to carefully domain model this pro
 
 My tech stack of choice will be JavaScript based for this tech test, so I decided to go back and look at my past repos for Thermostat and MakersBnB. Doing this, I realised that my domain model was wrong, so I went back and refined the domain model. That likely saved me from a lot of unproductive coding time.
 
+My process for then generating code is:
+1. Set up initial project structure (base files, folder structure, node packages, test frameworks, etc.)
+2. Create a basic non-functioning user interface to get a feeling for how the logic / model will need to operate.
+3. Write first test (Red)
+4. Pass first test (Green)
+5. Improve code (Refactor)
+6. Repeat 3-6
+
 ## Logic

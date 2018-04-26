@@ -6,6 +6,80 @@
 
   <body>
     <h1>Database</h1>
+    <div id="intro_div">
+      <h2>Introduction</h2>
+      <p>This app lets you store key-value pairs in a database (either memory or MongoDB, depending how far I get).</p>
+      <p>A 'key' is the reference name for the 'value' that you wish to store. Some examples are:</p>
+      <table>
+        <tr>
+          <th>
+            Key
+          </th>
+          <th>
+            Value
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Name
+          </td>
+          <td>
+            Julian
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Surname
+          </td>
+          <td>
+            Ng
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Profession
+          </td>
+          <td>
+            Junior Developer
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="send_div">
+      <h2>Send Data</h2>
+      <form>
+        <label for="send_key">Key
+        <br>
+        <input type="text" name="send_key" autofocus>
+        <br>
+        <label for="send_value">Value
+        <br>
+        <input type="text" name="send_value">
+        <br>
+        <input type="submit" id="send_submit">
+      </form>
+    </div>
+
+    <div id="retrieve_div">
+      <h2>Retrieve Data</h2>
+      <form>
+        <label for="retrieve_key">Key
+        <br>
+        <input type="text" name="retrieve_key" autofocus>
+        <br>
+        <input type="submit" id="send_submit">
+        <br>
+        <p>Value: <span id="retrieve_value">___<span>
+      </form>
+    </div>
+
   </body>
 
 </html>
+
+<style>
+table, tr, th, td {
+  border: solid 1px black;
+}
+</style>
